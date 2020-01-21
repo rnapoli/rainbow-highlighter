@@ -16,7 +16,7 @@ class DecoratorClass {
     };
     return {
       backgroundColor: this.config["use-border"] ? undefined : putAlpha(color),
-      border: this.config["use-border"] ? `2px solid ${color}` : undefined,
+      border: this.config["use-border"] ? `1px solid ${color}` : undefined,
       overviewRulerColor: color
     };
   };
